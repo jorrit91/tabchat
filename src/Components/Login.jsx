@@ -11,6 +11,7 @@ const Login = () => {
   const [user, setUser] = useState('');
   const [error, setError] = useState('');
   const [userSet, setUserSet] = useState(false);
+
   const handleForm = (e) => {
     e.preventDefault();
     const userIndex = Users.findIndex(user => user.userName.toLowerCase() === e.target[0].value);
@@ -26,7 +27,6 @@ const Login = () => {
     }
   };
 
-
   if (loggedIn) return (
 		<Redirect to={"/"} />
 	);
@@ -40,6 +40,7 @@ const Login = () => {
       <div className={"login-form " + ( userSet ? 'remove' : '')}>
         <h2>Welcome to <span>Tabchat!</span></h2>
         <p>Please enter your username to get started <br/><span>(It's probably something like "johndoe", "jimdoe" or "janedoe")</span></p>
+
         <form onSubmit={handleForm}>
           <div className={(!error ? '' : 'error')}>
             <input type={'text'}
@@ -52,6 +53,7 @@ const Login = () => {
           </div>
           <input type="submit" value="Submit" />
         </form>
+
       </div>
 
     </Fragment>

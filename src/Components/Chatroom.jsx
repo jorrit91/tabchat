@@ -76,6 +76,7 @@ const Chatroom = () => {
 
 	return (
     <div className="chatroom">
+
       <div className="topbar">
         <img src={Logo} alt="logo"/>
         <div className="menu">
@@ -86,8 +87,10 @@ const Chatroom = () => {
           </div>
         </div>
       </div>
+
       <div className="chat-container">
         <Chat className="chat" pose={isOpen ? 'open' : 'closed'}>
+
           {theChat.map((msg, index) => {
             return (
               <Message className={"msg " + (user.id === msg.user.id ? 'cur' : '')} key={index}>
@@ -105,9 +108,9 @@ const Chatroom = () => {
             <Message className="nomsg">No messages</Message>
           ) : null }
 
-
         </Chat>
       </div>
+
       <div className="submitform">
         <form onSubmit={handleForm}>
           <input value={msg}
@@ -116,6 +119,7 @@ const Chatroom = () => {
           <input disabled={msg.length === 0} type="submit" value="Submit" />
         </form>
       </div>
+      
     </div>
 	);
 }
