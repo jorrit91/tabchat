@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/tabchat/static/js/runtime~main.0266a0f8.js"
   },
   {
-    "revision": "039a882da04d200d01d5",
-    "url": "/tabchat/static/js/main.a23e4765.chunk.js"
+    "revision": "a8979a6c7a7dbe9520fb",
+    "url": "/tabchat/static/js/main.78fae92b.chunk.js"
   },
   {
     "revision": "28d98a4bb79eb29d1840",
     "url": "/tabchat/static/js/2.b8fe9d8b.chunk.js"
   },
   {
-    "revision": "039a882da04d200d01d5",
+    "revision": "a8979a6c7a7dbe9520fb",
     "url": "/tabchat/static/css/main.c2168640.chunk.css"
   },
   {
-    "revision": "4f8b9423af71779d5b176e6684c59566",
+    "revision": "2774dc420354d9cf0b27f1d71393e8d6",
     "url": "/tabchat/index.html"
   }
 ];
