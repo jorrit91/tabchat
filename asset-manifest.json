@@ -1,13 +1,13 @@
 {
   "main.css": "/tabchat/static/css/main.c2168640.chunk.css",
-  "main.js": "/tabchat/static/js/main.78fae92b.chunk.js",
-  "main.js.map": "/tabchat/static/js/main.78fae92b.chunk.js.map",
+  "main.js": "/tabchat/static/js/main.9f7ff49f.chunk.js",
+  "main.js.map": "/tabchat/static/js/main.9f7ff49f.chunk.js.map",
   "runtime~main.js": "/tabchat/static/js/runtime~main.0266a0f8.js",
   "runtime~main.js.map": "/tabchat/static/js/runtime~main.0266a0f8.js.map",
   "static/js/2.b8fe9d8b.chunk.js": "/tabchat/static/js/2.b8fe9d8b.chunk.js",
   "static/js/2.b8fe9d8b.chunk.js.map": "/tabchat/static/js/2.b8fe9d8b.chunk.js.map",
   "index.html": "/tabchat/index.html",
-  "precache-manifest.a317a89d48882bbd74920d21b83e9fc0.js": "/tabchat/precache-manifest.a317a89d48882bbd74920d21b83e9fc0.js",
+  "precache-manifest.25d98b0ffdadfdf16519044addfe50c8.js": "/tabchat/precache-manifest.25d98b0ffdadfdf16519044addfe50c8.js",
   "service-worker.js": "/tabchat/service-worker.js",
   "static/css/main.c2168640.chunk.css.map": "/tabchat/static/css/main.c2168640.chunk.css.map",
   "static/media/tabchat-logo.png": "/tabchat/static/media/tabchat-logo.57a052e3.png"
